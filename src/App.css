@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  height: 500px;
+  background-image: url(C:\Users\usuario\Desktop\react\mi-app\src\images\fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  margin: 0;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+.cart {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.cart h2 {
+  margin: 0;
+}
+
+.cart h3 {
+  margin-top: 20px;
+}
+
+.cart hr {
+  margin: 10px 0;
+}
+
+.cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item h3 {
+  margin: 0;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+.total {
+  font-weight: bold;
+  margin-top: 20px;
+}
